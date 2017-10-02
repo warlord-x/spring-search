@@ -29,4 +29,8 @@ public class SearchController {
 		personService.addPerson(person);
 	}
 	
+	@RequestMapping(method=RequestMethod.DELETE,value="/persons/{name}")
+	public void deletePerson(@PathVariable String name) {
+		personService.deletePerson(name);
+	}
 }
