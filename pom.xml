@@ -42,5 +42,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<!-- <start-class>searchspring.SearchSpring</start-class> -->
 	</properties>
+	
 </project>
